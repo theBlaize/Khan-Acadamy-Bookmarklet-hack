@@ -5,12 +5,16 @@
 <div id="box">
 <button class="ou" id="accordian">Open</button>
    <div class="ou" id="box2">
-       <p class="pdark" id="pdark"> KhanCheats 1.0 - Schoolcheats YT<br> Please don't copy and distribute<br><b> Does not work for multy select</b></p>
+       <p class="pdark" id="pdark"> KhanCheats 1.0 - Schoolcheats YT<br> Please don't copy and distribute<br><b>Update: works for multy select</b></p>
        <section><label>[shift+Z] also hides Menu</label></section> 
        <section><label>&nbsp;</label></section>
        <section><label>Answer: [<label id="ans1">...</label>]</label></section>
        <section><label>Last Answer Of Quiz: [<label id="ans2"></label>]</label></section>
        <section><label>&nbsp;</label></section>
+       <section><label>Muti-select awnsers</label></section> 
+        <section><label id="ans3text">Dropdown 1: [<label id="ans3">...</label>]</label></section>
+        <section><label id="ans4text">Dropdown 2: [<label id="ans4">...</label>]</label></section>
+        <section><label id="ans5text">Dropdown 3: [<label id="ans5">...</label>]</label></section>
        <section><label>&nbsp;</label></section>
    </div>
   
@@ -26,7 +30,7 @@
    padding: 15px;
    margin-bottom: 5px;
    display: none;
-   border-radius: 0 0 25px 25px;};
+   border-radius: 50px 50px 50px 50px;};
 section {
    display: flex;
    justify-content: space-between;margin:5px;}
@@ -42,13 +46,14 @@ section {
   text-align: center;
   border-bottom:2px solid white;}
 #accordian {
-   width: 100%;
+   width: 10Z0%;
    border: 0;
    cursor: pointer;
    border-radius: 0px;}
 label { font-weight: bold;}
 </style>
 `
+
 function get(x)            { return document.getElementById(x); }
 let overlay             = document.createElement("div");
    overlay.innerHTML   = overlayHTML;
@@ -287,4 +292,3 @@ document.getElementById('ans1').innerHTML = document.getElementById('ans1').inne
    }
 })();
  
-
