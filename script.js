@@ -9,7 +9,7 @@
        <section><label>[shift+Z] also hides Menu</label></section> 
        <section><label>&nbsp;</label></section>
        <section><label>Answer: [<label id="ans1">...</label>]</label></section>
-       <section><label>Last Answer Of Quiz: [<label id="ans2"></label>]</label></section>
+       <section><label>Next Awnser: [<label id="ans2"></label>]</label></section>
        <section><label>&nbsp;</label></section>
        <section><label>Muti-select awnsers</label></section> 
         <section><label id="ans3text">Dropdown 1: [<label id="ans3">...</label>]</label></section>
